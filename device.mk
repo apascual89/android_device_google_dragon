@@ -257,7 +257,8 @@ $(call inherit-product-if-exists, vendor/nvidia/dragon/dragon-vendor.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/PixelCLauncher/PixelCLauncher.apk:system/app/PixelCLauncher/PixelCLauncher.apk \
     $(LOCAL_PATH)/prebuilt/NexusLauncherIcons/NexusLauncherIcons.apk:system/app/NexusLauncherIcons/NexusLauncherIcons.apk \
-    $(LOCAL_PATH)/prebuilt/WallpapersUsTwo/WallpapersUsTwo.apk:system/app/WallpapersUsTwo/WallpapersUsTwo.apk
+    $(LOCAL_PATH)/prebuilt/WallpapersUsTwo/WallpapersUsTwo.apk:system/app/WallpapersUsTwo/WallpapersUsTwo.apk \
+    $(LOCAL_PATH)/prebuilt/NexusWallpapersStub/NexusWallpapersStub.apk:system/app/NexusWallpapersStub/NexusWallpapersStub.apk
 
 # Live Earth Wallpapers
 PRODUCT_PACKAGES += \
